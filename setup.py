@@ -41,7 +41,7 @@ setup(
     license="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0",
     packages=find_packages(),
     provides=[PKG],
-    install_requires=['lxml', 'requests'],
+    install_requires=['requests'],
     test_suite='tests',
     long_description=long_desc,
     classifiers=[
